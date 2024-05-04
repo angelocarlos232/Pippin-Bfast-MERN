@@ -1,0 +1,84 @@
+.main-contact-container{
+    align-items: center;
+    background: #fafafa;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+}
+
+.contact-title{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-description{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-messaging-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-messaging{
+    width:1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap:36px
+}
+
+
+.contact-messaging-left{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-messaging-left iframe{
+    border-radius: 15px;
+}
+
+.contact-messaging-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px
+}
+
+.contact-messaging-right input{
+    font-size: 16px;
+    background: white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-messaging-right textarea{
+    font-size: 16px;
+    background: white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 130px;
+}
+
+.contact-messaging-right button{
+    font-size: 22px;
+    background: #16a34a;
+    color: white;
+    border-radius: 15px;
+    height: 60px;
+
+
+}

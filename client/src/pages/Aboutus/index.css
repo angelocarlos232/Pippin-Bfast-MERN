@@ -1,0 +1,25 @@
+.about-first-part{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-top: 70px;
+    padding-bottom: 90px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    width:500px;
+}
+
+.about-first-part-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.about-second-part-right{
+    display: flex;
+    align-items: center;
+}
+
+.about-second-part-right img{
+    height: 500px;
+}

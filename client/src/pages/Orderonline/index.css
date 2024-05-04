@@ -1,0 +1,155 @@
+.order-main-container{
+    background: #fafafa;
+    
+
+}
+
+.order-container{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+.choices-main.container{
+
+}
+
+.choices-main-container{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
+.choices-container{
+    display: grid;
+    width: 1100px;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px; /* Adjust as needed */
+}
+
+.choices-items{
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item-order{
+    width: 220px;
+    border-radius: 15px;
+}
+
+.itemimg{
+    height: 150px;
+}
+
+.itemlabel{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.button-container{
+    border-radius: 30px;
+}
+
+.button-minus{
+    border-radius: 30px;
+    font-size: 20px;
+    color: red;
+    width: 30px;
+    border: 1px solid #9c9c9c;
+}
+.button-plus{
+    border-radius: 30px;
+    font-size: 20px;
+    color: #0cbe3e;
+    width: 30px;
+    border: 1px solid black;
+}
+
+.choices-right-side{
+    margin-left: 30px;
+}
+
+.order-list{
+    margin-top: 65px;
+    border-radius: 15px;
+
+    background: white;
+    height: 1000px;
+    padding: 50px;
+    
+}
+
+.order-list-title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+
+.order-list-item{
+    margin-top: 10px;
+}
+
+.order-list-item h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.order-list-item h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+    margin-bottom: 15px;
+}
+.order-list-item h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #0cbe3e;
+}
+
+.disabler{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: pink;
+}
+
+.add-button{
+    background: #0cbe3e;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.go-to-cart{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.go-to-cart button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #fafafa;
+    font-weight: 600;
+    background: #0cbe3e;
+    border-radius: 15px;
+}

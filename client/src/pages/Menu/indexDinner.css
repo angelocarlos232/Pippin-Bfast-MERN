@@ -1,0 +1,19 @@
+.dinneritemimg{
+    height: 225px;
+}
+.dinneritems{
+    width: 1027px;
+    border-radius: 40px;
+}
+
+.itembuybutton{
+    background: #097327;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

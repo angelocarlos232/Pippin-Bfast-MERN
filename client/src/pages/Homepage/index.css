@@ -1,0 +1,232 @@
+
+
+
+.whole-container{
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: top;
+}
+
+.homepage-container{
+    background: #fafafa;
+    width: 1500px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.first-part-left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    margin-top: 70px;
+    padding-bottom: 90px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+.first-part-left h1{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.first-part-left h2{
+    letter-spacing: 3px;
+}
+
+.first-part-left-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.first-part-left-buttons .button-1{
+    width: 230px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    background: #16a34a;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #fafafa;
+    font-size: 20px;
+}
+.first-part-left-buttons .button-1:hover {
+    background: #107736;
+    transition: 0.2s;
+}
+
+
+.first-part-left-buttons .button-2{
+    width: 230px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    background: #c5fdda;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #16a34a;
+    font-size: 20px;
+}
+
+.first-part-left-buttons .button-2:hover {
+    background: #1cce5d;
+    color: #fafafa;
+    transition: 0.2s;
+}
+
+
+.first-part-right{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+.first-part-right img{
+    height: 450px;
+}
+
+
+
+.third-part{
+    background: #1d191a;
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review-text{
+    font-size: 3.35rem;
+    color: #fafafa;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.review-card{
+    margin-top: 40px;
+    background: #fafafa;
+    width: 700px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.review-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.review-contents p{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.second-whole-container{
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: top;
+}
+
+.second-homepage-container{
+    background: #c5fdda;
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-part-left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    margin-top: 70px;
+    padding-bottom: 90px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    width: 600px;
+    padding-right: 60px;
+}
+
+.second-part-right{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: end;
+}
+.second-part-right img{
+    height: 550px;
+}
+
+.second-part-left{
+    
+}
+
+.second-part-left h1{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.second-part-left h2{
+    letter-spacing: 3px;
+}
+
+.fourth-homepage-container{
+    background: #fafafa;
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-part{
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    background: #c5fdda;
+    width:900px;
+    height: 300px;
+    color: black;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.map-part-text{
+
+}
+
+.map-part-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.map-part-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.map-part-button button{
+    background: #16a34a;
+    color: #fafafa;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+
+}

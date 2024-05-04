@@ -1,0 +1,73 @@
+.selected-tab{
+    background-color: #097327 !important;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    border-color: 1px solid #fafafa;
+}
+
+.tab{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #f6f4f5;
+}
+
+.wholeitem{
+    border-radius: 40px;
+    @media (max-width: 1080px) {
+        
+    }
+}
+
+.categories{
+    @media (max-width:1080px) {
+        display:none;
+    }
+}
+
+
+.itembuybutton button{
+    background: #097327;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.itemimg{
+    @media (max-width: 1080px) {
+        height: 15vh;
+    }
+}
+
+
+.cards{
+    @media (max-width:1080px) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.itemlabel{
+    @media (max-width:1080px) {
+        font-size: 25px;
+    }
+}
+
+.itemtext{
+    @media (max-width:1080px) {
+        font-size: 10px;
+    }
+}

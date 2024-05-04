@@ -1,0 +1,61 @@
+.container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-1 {
+    max-width: 28rem;
+    width: 100%;
+  }
+  
+  .loginpagetitle {
+    margin-bottom: 2.5rem;
+    font-size: 1.875rem; /* 3xl */
+    font-weight: 800; /* extrabold */
+  }
+  
+  .loginpagetitle h1 {
+    font-size: 2.25rem; /* 3xl */
+  }
+  
+  .loginpagetitle p {
+    font-size: 1rem; /* xl */
+    font-weight: 400;
+  }
+  
+  .label {
+    display: block;
+  }
+  
+  .input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .loginpage-button {
+    margin-top: 1rem;
+  }
+  
+  .button {
+    background-color: #56a110; /* green-500 */
+    color: #fff;
+    font-weight: 700; /* bold */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #39840b; /* green-700 */
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #d1fae5; /* green-200 */
+  }
+  
