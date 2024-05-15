@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import { useNavigate } from "react-router-dom";
 import './index.css';
 import AllItems from "./AllItems";
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -8,11 +9,13 @@ import pizza from '../../images/pizza.png'
 import tapsilog from '../../images/tapsilog.png'
 import drinks from '../../images/drinks.png'
 import dessert from '../../images/dessert.png'
+import axios from 'axios'
 
 export default function OrderonlinePage() {
   const [selectedTab, setSelectedTab] = useState(0); // Initialize selected tab index
   const [selectedItems, setSelectedItems] = useState([]);
 
+  const navigate = useNavigate();
 
   const maximumExceed = () =>{
     if (selectedItems.length >= 5){
@@ -41,6 +44,30 @@ export default function OrderonlinePage() {
     setSelectedItems(newSelectedItems);
 
   }
+
+
+  const confirmCart = async () => {
+    try {
+      // Send a POST request to your backend endpoint to save the selected items to the cart
+      const response = await axios.post('http://localhost:8000/cart', {
+        items: selectedItems // Assuming your backend expects an array of items
+      });
+      
+      // Check if the request was successful
+      if (response.status === 200) {
+        toast.success('Cart confirmed and items added successfully!');
+        // Clear the selected items array or perform any other necessary actions
+        setSelectedItems([]);
+        // Redirect the user to the cart page or any other desired page
+        // navigate('/cart');
+      } else {
+        toast.error('Failed to confirm cart. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Error confirming cart:', error);
+      toast.error('An error occurred while confirming cart. Please try again later.');
+    }
+  };
 
 
 
@@ -162,7 +189,7 @@ export default function OrderonlinePage() {
           ))}
                 </div>  
                 <div className="go-to-cart">
-                  <button >Go to Cart</button>
+                  <button onClick={confirmCart}>Confirm and Go to Cart</button>
                 </div>
             </div>
             </div>

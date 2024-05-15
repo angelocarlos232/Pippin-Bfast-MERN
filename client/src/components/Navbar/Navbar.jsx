@@ -9,21 +9,27 @@ import CartLogo from './cart.png';
 import styled from 'styled-components'
 import toast from 'react-hot-toast'
 import { UserContext } from '../../userContext';
+import axios from 'axios'
 
 
 
 const Navbar = () => {
   const { user,setUser } = useContext(UserContext); // Get user from context
+  const [loggedIn, setLoggedIn] = useState(false);
 
   const navigate = useNavigate() 
 
   const handleLogout = () => {
-    setUser(null);
-    localStorage.clear();
-    toast.success("nice logout")
-    navigate('/Authentication');
-
-  }
+    // Clear token from localStorage
+    localStorage.removeItem('token');
+    // Clear token cookie
+    axios.post('http://localhost:8000/logout').then(() => {
+      setLoggedIn(false);
+    navigate('/authentication')
+    }).catch(error => {
+      console.error('Error logging out:', error);
+    });
+  };
 
   const [isOpen, setIsOpen] = useState(false);
 

@@ -28,10 +28,11 @@ const LoginPage = () => {
         toast.success("Login Successful")
         setData({});
         localStorage.setItem('token', data.token)
-        setTimeout(navigate('/'), 1000)
+        setTimeout(() => navigate('/'), 100);
+
       }
     } catch (error) {
-      
+      console.log("error")
     }
   }
 

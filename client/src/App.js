@@ -42,7 +42,7 @@ useEffect(() => {
   } else {
     setLoggedIn(false);
   }
-  setTimeout(() => setLoading(false), 5000); // Set timeout for 5 seconds
+  setTimeout(() => setLoading(false), 300); // Set timeout for 5 seconds
 }, []);
 
 
