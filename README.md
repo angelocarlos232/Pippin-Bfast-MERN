@@ -18,4 +18,4 @@ Database: MongoDB
 Security: JSON Web Tokens (JWT) and bcrypt
 
 
-https://github.com/angelocarlos232/Pippin-Bfast-MERN/assets/72644691/4d4037af-a724-4cb2-9e40-3e809461096f
+
