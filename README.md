@@ -19,4 +19,8 @@ Security: JSON Web Tokens (JWT) and bcrypt
 
 
 
+
 ![1](https://github.com/angelocarlos232/Pippin-Bfast-MERN/assets/72644691/d2cdf946-c111-4e6e-b687-4292d6136ed5)
+![2](https://github.com/angelocarlos232/Pippin-Bfast-MERN/assets/72644691/28c65bc1-2768-4d79-a8e2-c403bef5bac6)
+
+
